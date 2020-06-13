@@ -52,10 +52,21 @@ form fieldset {
 
 form legend {
     margin-bottom: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
 }
 
 form legend h2 {
     font-size: 24px;
+}
+
+form legend span {
+    font-size: 12px;
+    color: var(--title-color);
 }
 
 form .field {
@@ -72,7 +83,7 @@ form .field-group {
 
 form input,
 form select {
-    background-color: #f0f0f5;
+    background-color: var(--background-color);
     border: 0;
 
     padding: 16px 24px;
