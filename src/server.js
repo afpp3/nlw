@@ -24,4 +24,5 @@ server.get("/search", (req, res) => {
     return res.render("search-results.html")
 })
 
-server.listen(3000)
+//Start the server in 3000 port
+server.listen(process.env.PORT || 3000);
